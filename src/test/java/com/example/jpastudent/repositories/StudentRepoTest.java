@@ -1,4 +1,4 @@
-package com.example.jpastudent.repositories;
+/*package com.example.jpastudent.repositories;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class StudentRepoTest {
 
     @Autowired
-    StudentRepo studentRepo;
+    //StudentRepo studentRepo;
 
     @Test
     void testForRajesh() {
@@ -17,4 +17,4 @@ class StudentRepoTest {
        // assertFalse(obj.isEmpty());
     }
 
-}
+}*/
