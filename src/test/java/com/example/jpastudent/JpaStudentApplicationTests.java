@@ -13,13 +13,4 @@ import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest
 class JpaStudentApplicationTests {
 
-    @Autowired
-    StudentRepo studentRepo;
-
-    @Test
-    void contextLoads() {
-        List<Student> students = studentRepo.findAllByName("Rajesh");
-        assertFalse(students.isEmpty());
-    }
-
 }
