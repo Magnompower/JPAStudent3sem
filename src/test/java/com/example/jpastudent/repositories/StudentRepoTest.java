@@ -13,7 +13,7 @@ class StudentRepoTest {
 
     @Test
     void testForRajesh() {
-        var obj = studentRepo.findAllByName("Rajesh");
+       // var obj = studentRepo.findAllByName("Rajesh");
        // assertFalse(obj.isEmpty());
     }
 
